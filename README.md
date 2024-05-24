@@ -33,7 +33,8 @@ When we forcefully convert any number into any other datatype
     Binary : + - * / %
     Unary : ++ --
 2. Relational operators
-    == != 
+    == != > < >= <=
 3. logical operators
 4. Bitwise operators
 5. Assignment operators
+    = += -= *= /=
