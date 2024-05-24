@@ -2,7 +2,8 @@ import java.util.*;
 
 public class Demo {
     public static void main(String args[]){
-      Scanner sc = new Scanner(System.in);
-        int $ = 24;
+      int a= 10;
+      int b= 20;
+      System.out.println((a==b));
     }
 }
