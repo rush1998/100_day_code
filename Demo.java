@@ -2,9 +2,12 @@ import java.util.*;
 
 public class Demo {
     public static void main(String args[]){
-      Scanner sc=new Scanner(System.in);
-      int a=sc.nextInt();
-      a%=3;
-      System.out.println(a);
+      int x=2 , y=5;
+
+      int exp1= (x*y/x);
+      int exp2= (x*(y/x));
+
+      System.out.println(exp1 + ",");
+      System.out.println(exp2);
     }
 }
