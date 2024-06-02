@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Demo {
+public class Oddeven {
     public static void main(String args[]){
      Scanner sc= new Scanner(System.in);
      int number=sc.nextInt();
@@ -12,3 +12,4 @@ public class Demo {
      }
     }
 }
+
