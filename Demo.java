@@ -2,8 +2,7 @@ import java.util.*;
 
 public class Demo {
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        float dec = sc.nextFloat();
-        System.out.println(dec);
-    }    
+      Scanner sc = new Scanner(System.in);
+        int $ = 24;
+    }
 }
