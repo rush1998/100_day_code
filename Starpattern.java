@@ -15,12 +15,23 @@ public class Starpattern {
         //     }
         //     System.out.println();
         // }
+        // int n=4;
+        // for(int line=1; line<=n; line++){
+        //     for(int num=1; num<=line; num++){
+        //         System.out.print(num);
+        //     }
+        //     System.out.println();
+        // }
         int n=4;
+        char ch='A';
         for(int line=1; line<=n; line++){
-            for(int num=1; num<=line; num++){
-                System.out.print(num);
+            for(int chara=1; chara<=line; chara++){
+                System.out.print(ch);
+                ch++;
             }
             System.out.println();
         }
+
+
     }    
 }
