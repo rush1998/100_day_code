@@ -40,3 +40,5 @@ When we forcefully convert any number into any other datatype
 1. while
 2. for loop
 3. do while loop
+
+Functions
