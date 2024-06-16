@@ -41,4 +41,11 @@ When we forcefully convert any number into any other datatype
 2. for loop
 3. do while loop
 
-Functions
+*Functions in Java*
+1. When we define a function the parameters are know as formal parameters. 
+2. When we call the function the parameters are known as actual parameters.
+3. Java always calls by value.
+4. There are two types of function in Java 
+    a. Inbuilt 
+    b. Userdefined 
+5. 
