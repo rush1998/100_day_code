@@ -2,6 +2,7 @@
 
 *There are two types of datatypes*
 1. primitive : The one which is already define in java
+   
     a. byte : 1 byte
     b. short : 2 bytes
     c. char : 2 bytes
@@ -14,12 +15,13 @@
 2. non-premitive : The one which is made by us.
 
 *Type Conversion*
+
 Conversion happen when:
 
-    a. type compatible
-    b. destination type > source type
+1. type compatible
+2. destination type > source type
 
-byte>short>int>float>long>double
+Example: byte>short>int>float>long>double
 
 *Type casting*
 When we forcefully convert any number into any other datatype
@@ -46,6 +48,8 @@ When we forcefully convert any number into any other datatype
 2. When we call the function the parameters are known as actual parameters.
 3. Java always calls by value.
 4. There are two types of function in Java 
+
     a. Inbuilt 
     b. Userdefined 
-5. 
+
+5. We can do function overloadin in Java.
