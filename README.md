@@ -53,3 +53,6 @@ When we forcefully convert any number into any other datatype
     b. Userdefined 
 
 5. We can do function overloadin in Java.
+
+   a. We can have to different formal parameters.
+   b. We can have different data types.
