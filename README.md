@@ -110,7 +110,7 @@ When we forcefully convert any number into any other datatype
             System.out.println(a); // THIS IS WRONG
         }
 ---------------------------------------------------------------------
-Binary to Decimal 
+*Binary to Decimal* 
 
 Ex: 101 to 5
 
@@ -128,7 +128,7 @@ while(bin<0){
 }
 
 ---------------------------------------------------------------------
-Decimal to Binary
+*Decimal to Binary*
 
 Ex: 7 to 111
 
@@ -149,5 +149,17 @@ while(num<0){
 }
 
 ---------------------------------------------------------------------
+*Array in JAVA*
+
+List of element of same type which is placed in contiguous memeory is know as array.
+
+1. Operation in Arrays
+    1. Create ex: int example[] = new int[10];
+              ex: int example[] = {1,2,3};
+    2. Input
+    3. Output
+    4. Update
+
+2.     
 
 
