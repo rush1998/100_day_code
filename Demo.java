@@ -1,13 +1,12 @@
 import java.util.*;
 
 public class Demo {
-    public static void main(String args[]){
-      Scanner sc = new Scanner(System.in);
-      int number= sc.nextInt();
-
-      while (number<=100) {
-            System.out.println("Hello");
-            number++;        
-      }
+  public static int num(int a){
+    return a=20;
+  }  
+  public static void main(String args[]){
+      int c=10; 
+      num(c);
+      System.out.println(c);
     }
 }
