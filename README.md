@@ -103,9 +103,49 @@ When we forcefully convert any number into any other datatype
         }
     b. block scope
         ex: 
-        public ststic void main(String args[]){
+        public static void main(String args[]){
             for(int a=1; a<=2; a++){
                 System.out.println(a);
             }
             System.out.println(a); // THIS IS WRONG
         }
+---------------------------------------------------------------------
+Binary to Decimal 
+
+Ex: 101 to 5
+
+1 0 1                          //Binary number
+1(2*2) + 0(2*1) + 1(2*0) = 5   // This is how we can convert to Decimal number
+
+while(bin<0){
+    int pow = 0;
+    int dec = 0;
+    last=bin%10;
+    int dec = dec + (last*((Int)Math.Pow(2,pow)));
+    pow++;
+
+    bin=bin/10;
+}
+
+---------------------------------------------------------------------
+Decimal to Binary
+
+Ex: 7 to 111
+
+2|7 - 1 //remainder 
+2|3 - 1 //remainder
+2|1 - 1 //remainder
+2|0
+
+while(num<0){
+    int pow = 0;
+    int dec= 0;
+
+    last = num%2;
+    int bin = dec + (last * ((int)Math.pow(10,pow)));
+    pow++;
+
+    num = num/2;
+}
+
+---------------------------------------------------------------------
