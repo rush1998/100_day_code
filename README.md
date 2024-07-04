@@ -37,6 +37,7 @@ Example: byte>short>int>float>long>double
 When we forcefully convert any number into any other datatype
     float a = 19.0;
     int b = (int) a;
+
 ---------------------------------------------------------------------
 *Operators*
 1. Arithmetic operators
