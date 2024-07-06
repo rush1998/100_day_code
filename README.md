@@ -5,12 +5,12 @@
 1. primitive : The one which is already define in java
 
     a. byte : 1 byte
-        byte a = 5
+        ex:byte a = 5
     b. short : 2 bytes
     c. char : 2 bytes
-        char b = 'A'
+        ex:char b = 'A'
     d. boolen : 1 byte  
-        boolean c = true    
+        ex:boolean c = true    
     e. int : 4 bytes
     f. long : 8 bytes
     g. float : 4 bytes
@@ -40,6 +40,7 @@ When we forcefully convert any number into any other datatype
 
 ---------------------------------------------------------------------
 *Operators*
+
 1. Arithmetic operators
     Binary : + - * / %
     Unary : ++ --
@@ -52,6 +53,7 @@ When we forcefully convert any number into any other datatype
     = += -= *= /=
 ---------------------------------------------------------------------
 *Conditional Statement*
+
 1. if
 2. else if
 3. ternary operator
@@ -68,11 +70,13 @@ When we forcefully convert any number into any other datatype
     }
 ---------------------------------------------------------------------
 *Loops*
+
 1. while
 2. for loop
 3. do while loop
 ---------------------------------------------------------------------
 *Functions in Java*
+
 1. parameters are after function name inside the ().
     ex: public static void cal(int a int b)
 
@@ -178,6 +182,19 @@ List of element of same type which is placed in contiguous memeory is know as ar
         int per = (marks[0]+marks[1]+marks[2])/3;
         System.out.println("Per is " + per + "%");
 
-2. Linear search : Time complexicity in this algorithm is O(n).
+2. Linear search : Time complexicity in this algorithm is O(n). =>> **Linear.java**
 
+3. Binary Search : Remeber the dictionary 
+There is a mid, start and end which goes into a loop and finds out the key.
+The time complexity is log n. =>> **Binary.java**
+
+4. prefix array: Take an example of max subarray sum 
+Where in we need to create a prefix array rather then creatind a sub loops as a traditional method.
+formula: prefix[end]-prefix[start-1] =>> **Subarrpre.java**
+
+5. Kadanes algorithm: When there is a negetive number in an Array and we need to find a sum of max subarray then suppose that all negetive numbers in the arrag are **0**. =>> **Kadanes.java** 
+
+6. Trapping Rainwater algorithm: Find the total area of water trapped in the bar.
+Formula 1 : area = (waterlevel-barheight)*width
+Formula 2 : Waterlevel = min(maxL,maxR) =>> **Tr.java**
 

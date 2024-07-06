@@ -25,7 +25,7 @@ public class Subarr{
         System.out.println("max num is:"+max);
     }
     public static void main(String args[]){
-        int num[]= {3,4,6,8,9};
+        int num[]= {1,-2,6,-1,3};
         sub(num);
         
     }
