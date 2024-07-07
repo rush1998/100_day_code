@@ -198,3 +198,10 @@ formula: prefix[end]-prefix[start-1] =>> **Subarrpre.java**
 Formula 1 : area = (waterlevel-barheight)*width
 Formula 2 : Waterlevel = min(maxL,maxR) =>> **Tr.java**
 
+---------------------------------------------------------------------
+*Sorting algorithm*
+
+1. Bubble sort: The largest number in the array will come to the end by swapping the other element in the array. =>> **Bubble.java** 
+2. Selection sort: Pick the smallest element in from the array amnd push it to the beginning. =>> **Selection.java**
+3. Insertion sort: Pick an element from unsorted part and put it in the right position in sorted part. =>> ****
+4. Counting sort 
