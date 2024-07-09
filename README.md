@@ -5,12 +5,12 @@
 1. primitive : The one which is already define in java
 
     - byte : 1 byte
-        ex:byte a = 5
+        - ex:byte a = 5
     - short : 2 bytes
     - char : 2 bytes
-        ex:char b = 'A'
+        - ex:char b = 'A'
     - boolen : 1 byte  
-        ex:boolean c = true    
+        - ex:boolean c = true    
     - int : 4 bytes
     - long : 8 bytes
     - float : 4 bytes
@@ -33,10 +33,11 @@ Conversion happen when:
 
 - Example: byte>short>int>float>long>double
 
+---------------------------------------------------------------------
 *Type casting*
 When we forcefully convert any number into any other datatype
-    float a = 19.0;
-    int b = (int) a;
+    - float a = 19.0;
+    - int b = (int) a;
 
 ---------------------------------------------------------------------
 *Operators*
@@ -57,9 +58,9 @@ When we forcefully convert any number into any other datatype
 1. if
 2. else if
 3. ternary operator
-    ex: int a = (5>4)?5:4;
+    - ex: int a = (5>4)?5:4;
 4. Switch statement
-    ex: switch(condition){
+    - ex: switch(condition){
         case 1 : System.out.println("x");
             break;
         case 2 : System.out.println("y");
@@ -78,7 +79,7 @@ When we forcefully convert any number into any other datatype
 *Functions in Java*
 
 1. parameters are after function name inside the ().
-    ex: public static void cal(int a int b)
+    - ex: public static void cal(int a int b)
 
 2. When we define a function the parameters are know as formal parameters. 
 
@@ -87,26 +88,26 @@ When we forcefully convert any number into any other datatype
 4. Java always calls by value.
 
 5. There are two types of function in Java 
-    a. Inbuilt 
-        ex: Math, nextInt(),...
-    b. Userdefined 
-        ex: factor, sum,..
+    -  Inbuilt 
+        - ex: Math, nextInt(),...
+    -  Userdefined 
+        - ex: factor, sum,..
 
 6. how can we do function overloadin in Java.
-   a. We can have to different formal parameters.
-   b. We can more formal parameters in different functions.
+   -  We can have to different formal parameters.
+   -  We can more formal parameters in different functions.
 
 7. There are different types of scope in java
-    a. Function/method scope
-        ex: 
+    - Function/method scope
+        - ex: 
         public static void sum(int a int b){
             int sum= a+b;
         }
         public static void main(String args[]){
             int a =10;
         }
-    b. block scope
-        ex: 
+    - block scope
+        - ex: 
         public static void main(String args[]){
             for(int a=1; a<=2; a++){
                 System.out.println(a);
@@ -116,7 +117,7 @@ When we forcefully convert any number into any other datatype
 ---------------------------------------------------------------------
 *Binary to Decimal* 
 
-Ex: 101 to 5
+- Ex: 101 to 5
 
 1 0 1                          //Binary number
 1(2*2) + 0(2*1) + 1(2*0) = 5   // This is how we can convert to Decimal number
@@ -134,7 +135,7 @@ while(bin<0){
 ---------------------------------------------------------------------
 *Decimal to Binary*
 
-Ex: 7 to 111
+- Ex: 7 to 111
 
 2|7 - 1 //remainder 
 2|3 - 1 //remainder
@@ -158,56 +159,73 @@ while(num<0){
 List of element of same type which is placed in contiguous memeory is know as array.
 
 1. Operation in Arrays
-    1. Create ex: int example[] = new int[10];
-              ex: int example[] = {1,2,3};
-    2. Input
-    3. Output
-    4. Update
-    ex: input, output and update 
-    int marks[] = new int [50];
-        Scanner sc= new Scanner(System.in);
+    - Create 
+        - ex: int example[] = new int[10];
+        - ex: int example[] = {1,2,3};
+    -  Input
+    -  Output
+    -  Update
+     - ex: input, output and update <br>
+                int marks[] = new int [50];
+                Scanner sc= new Scanner(System.in);
 
-        marks[0] = sc.nextInt();
-        marks[1] = sc.nextInt();
-        marks[2] = sc.nextInt();
+                marks[0] = sc.nextInt();
+                marks[1] = sc.nextInt();
+                marks[2] = sc.nextInt();
 
-        System.out.println("length is" + marks.length);
-        System.out.println("Phy " + marks[0]);
-        System.out.println("Chem " + marks[1]);
-        System.out.println("Math " + marks[2]);
+                System.out.println("length is" + marks.length);
+                System.out.println("Phy " + marks[0]);
+                System.out.println("Chem " + marks[1]);
+                System.out.println("Math " + marks[2]);
 
-        marks[2] = 98;
-        System.out.println("Updated Math marks is " + marks[2]);
+                marks[2] = 98;
+                System.out.println("Updated Math marks is " + marks[2]);
 
-        int per = (marks[0]+marks[1]+marks[2])/3;
-        System.out.println("Per is " + per + "%");
+                int per = (marks[0]+marks[1]+marks[2])/3;
+                System.out.println("Per is " + per + "%");
 
-2. Linear search : Time complexicity in this algorithm is O(n). =>> **Linear.java**
+2. Linear search : 
+- Time complexicity in this algorithm is O(n). =>> **Linear.java**
 
-3. Binary Search : Remeber the dictionary 
-There is a mid, start and end which goes into a loop and finds out the key.
-The time complexity is log n. =>> **Binary.java**
+3. Binary Search : 
+- Remeber the dictionary 
+- There is a mid, start and end which goes into a loop and finds out the key.
+- The time complexity is log n. =>> **Binary.java**
 
-4. prefix array: Take an example of max subarray sum 
-Where in we need to create a prefix array rather then creatind a sub loops as a traditional method.
-formula: prefix[end]-prefix[start-1] =>> **Subarrpre.java**
+4. prefix array: 
+- Take an example of max subarray sum 
+- Where in we need to create a prefix array rather then creatind a sub loops as a traditional method.
+- formula: prefix[end]-prefix[start-1] =>> **Subarrpre.java**
 
-5. Kadanes algorithm: When there is a negetive number in an Array and we need to find a sum of max subarray then suppose that all negetive numbers in the arrag are **0**. =>> **Kadanes.java** 
+5. Kadanes algorithm: 
+- When there is a negetive number in an Array and we need to find a sum of max subarray then suppose that all negetive numbers in the arrag are **0**. =>> **Kadanes.java** 
 
-6. Trapping Rainwater algorithm: Find the total area of water trapped in the bar.
-Formula 1 : area = (waterlevel-barheight)*width
-Formula 2 : Waterlevel = min(maxL,maxR) =>> **Tr.java**
+6. Trapping Rainwater algorithm: 
+- Find the total area of water trapped in the bar.
+- Formula 1 : area = (waterlevel-barheight)*width
+- Formula 2 : Waterlevel = min(maxL,maxR) =>> **Tr.java**
 
 ---------------------------------------------------------------------
 *Sorting algorithm*
 
-1. Bubble sort: The largest number in the array will come to the end by swapping the other element in the array. =>> **Bubble.java** 
-2. Selection sort: Pick the smallest element in from the array amnd push it to the beginning. =>> **Selection.java**
-3. Insertion sort: Pick an element from unsorted part and put it in the right position in sorted part. =>> **Insertion.java**
-4. Counting sort : We can use this shorting algo for small numbers where the array range can be big but the numbers in the array are small for example arr[] = {1,3,4,6,2,3,4,7,4,5}; arr[10] but range is 1 to 7; **Count.java**
-5. Inbuilt sort function: Array.sort.(arr); also Array.sort.(arr,0,3); also is you want to convert into decending order then you need to use Array.sort(arr,Collection.reverseOrder());
+1. Bubble sort: 
+- The largest number in the array will come to the end by swapping the other element in the array. =>> **Bubble.java** 
+2. Selection sort: 
+- Pick the smallest element in from the array amnd push it to the beginning. =>> **Selection.java**
+3. Insertion sort: 
+- Pick an element from unsorted part and put it in the right position in sorted part. =>> **Insertion.java**
+4. Counting sort : 
+- We can use this shorting algo for small numbers where the array range can be big but the numbers in the array are small for example arr[] = {1,3,4,6,2,3,4,7,4,5}; arr[10] but range is 1 to 7; **Count.java**
+5. Inbuilt sort function: 
+- Array.sort.(arr); also Array.sort.(arr,0,3); also is you want to convert into decending order then you need to use Array.sort(arr,Collection.reverseOrder());
 
 ---------------------------------------------------------------------
 *2D array*
 
-- There are rows and columns in 2D arrays where rows= horizontal direction and column= vertical direction.
+- There are rows and columns in 2D arrays. 
+- rows= horizontal direction and column= vertical direction.
+
+1. Spiral matrix: **Spiral.java**
+2. Diagonal sum: **Diagonal.java**
+3. Sorted matrix: **Sorted2d.java**
+ 
