@@ -228,4 +228,13 @@ List of element of same type which is placed in contiguous memeory is know as ar
 1. Spiral matrix: **Spiral.java**
 2. Diagonal sum: **Diagonal.java**
 3. Sorted matrix: **Sorted2d.java**
+---------------------------------------------------------------------
+*Strings*
+
+- Strigs are **immutable**.
+- How do define string in Java 
+    - String str = "abc";
+    - String str2 = new String("abc");
+- If you want to compare two string we can have an object name Sting1.equals.Sting2
+    - Ex: **compstr.java**
  
