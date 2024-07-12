@@ -6,7 +6,7 @@ public class Selection {
             int sort=i;
             for(int j=i+1; j<arr.length; j++){
                 if (arr[sort]>arr[j]) {
-                    sort=j;
+                    sort=j;  
                 }
             }
             int temp= arr[sort];

@@ -4,25 +4,25 @@
 
 1. primitive : The one which is already define in java
 
-    a. byte : 1 byte
+    - byte : 1 byte
         ex:byte a = 5
-    b. short : 2 bytes
-    c. char : 2 bytes
+    - short : 2 bytes
+    - char : 2 bytes
         ex:char b = 'A'
-    d. boolen : 1 byte  
+    - boolen : 1 byte  
         ex:boolean c = true    
-    e. int : 4 bytes
-    f. long : 8 bytes
-    g. float : 4 bytes
-    h. double : 8 bytes
+    - int : 4 bytes
+    - long : 8 bytes
+    - float : 4 bytes
+    - double : 8 bytes
     
 2. non-premitive : The one is made by us.
     
-    a. String
-    b. Array
-    c. Class
-    d. Object
-    e. Interface
+    - String
+    - Array
+    - Class
+    - Object
+    - Interface
 ---------------------------------------------------------------------
 *Type Conversion*
 
@@ -31,7 +31,7 @@ Conversion happen when:
 1. type compatible
 2. destination type > source type
 
-Example: byte>short>int>float>long>double
+- Example: byte>short>int>float>long>double
 
 *Type casting*
 When we forcefully convert any number into any other datatype
@@ -42,15 +42,15 @@ When we forcefully convert any number into any other datatype
 *Operators*
 
 1. Arithmetic operators
-    Binary : + - * / %
-    Unary : ++ --
+    - Binary : + - * / %
+    - Unary : ++ --
 2. Relational operators
-    == != > < >= <=
+    - == != > < >= <=
 3. logical operators
-    && || !
+    - && || !
 4. Bitwise operators
 5. Assignment operators
-    = += -= *= /=
+    - = += -= *= /=
 ---------------------------------------------------------------------
 *Conditional Statement*
 
@@ -203,5 +203,11 @@ Formula 2 : Waterlevel = min(maxL,maxR) =>> **Tr.java**
 
 1. Bubble sort: The largest number in the array will come to the end by swapping the other element in the array. =>> **Bubble.java** 
 2. Selection sort: Pick the smallest element in from the array amnd push it to the beginning. =>> **Selection.java**
-3. Insertion sort: Pick an element from unsorted part and put it in the right position in sorted part. =>> ****
-4. Counting sort 
+3. Insertion sort: Pick an element from unsorted part and put it in the right position in sorted part. =>> **Insertion.java**
+4. Counting sort : We can use this shorting algo for small numbers where the array range can be big but the numbers in the array are small for example arr[] = {1,3,4,6,2,3,4,7,4,5}; arr[10] but range is 1 to 7; **Count.java**
+5. Inbuilt sort function: Array.sort.(arr); also Array.sort.(arr,0,3); also is you want to convert into decending order then you need to use Array.sort(arr,Collection.reverseOrder());
+
+---------------------------------------------------------------------
+*2D array*
+
+- There are rows and columns in 2D arrays where rows= horizontal direction and column= vertical direction.
