@@ -237,4 +237,6 @@ List of element of same type which is placed in contiguous memeory is know as ar
     - String str2 = new String("abc");
 - If you want to compare two string we can have an object name Sting1.equals.Sting2
     - Ex: **compstr.java**
+- There is a inbuilt sumction to find out the substring of any string *variablename.substring(Start,End);*
+    - Ex: **substr.java**
  
