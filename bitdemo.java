@@ -36,6 +36,14 @@ public class bitdemo {
         int ans = num & bitmas;
         System.out.println(ans);
     }
+    public static void clrange(int num, int i, int j){
+        int a=(-1<<(j+1));
+        int b=((1<<i)-1);
+        int ab=a|b;
+
+        int ans = num&ab;
+        System.out.println(ans);
+    }
     public static void main(String args[]){
         // oddeve(5);
         // oddeve(4);
@@ -43,6 +51,7 @@ public class bitdemo {
         // setbit(10, 2);
         // clearbit(10, 1);
         // clear(10, 1, 0);
-        clearlast(15, 2);
+        // clearlast(15, 2);
+        clrange(10, 2, 4);
     }
  }
