@@ -241,4 +241,12 @@ List of element of same type which is placed in contiguous memeory is know as ar
     - Ex: **substr.java**
 - How to find largest string Lexicographically Ex: **largeststr.java**
 - StringBuilder is a tool in Java that allows you to build and modify strings (words or sentences) efficiently. It’s like a set of building blocks where you can add, change, or remove pieces easily without creating a new set of blocks every time(Strings).
+---------------------------------------------------------------------
+*Bit-wise operators*
 
+- Binary AND &
+- Binary OR |
+- Bitwise XOR ^
+- Bitwise one's complement ~
+- Bitwise left shift <<
+- Bitwise right shift >>
