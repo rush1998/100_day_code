@@ -244,9 +244,27 @@ List of element of same type which is placed in contiguous memeory is know as ar
 ---------------------------------------------------------------------
 *Bit-wise operators*
 
-- Binary AND &
+we need to remember the decimal to binary of  **1 to 7**
+which is 
+<tr>dec</tr>
+<tr>bin</tr>
+<td>0 - 000</td>
+<td>1 - 001</td>
+<td>2 - 010</td>
+<td>3 - 0011</td>
+<td>4 - 100</td>
+<td>5 - 101</td>
+<td>6 - 110</td>
+<td>7 - 111</td>
+
+- Binary AND & 
+    - 1 0 - 0
+    - 0 1 - 0
+    - 0 0 - 0
+    - 1 1 - 1
 - Binary OR |
 - Bitwise XOR ^
 - Bitwise one's complement ~
 - Bitwise left shift <<
 - Bitwise right shift >>
+- 
