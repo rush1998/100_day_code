@@ -44,6 +44,9 @@ public class bitdemo {
         int ans = num&ab;
         System.out.println(ans);
     }
+    public static boolean twopower(int num){
+        return (num&(num-1)) == 0;
+    }
     public static void main(String args[]){
         // oddeve(5);
         // oddeve(4);
@@ -52,6 +55,7 @@ public class bitdemo {
         // clearbit(10, 1);
         // clear(10, 1, 0);
         // clearlast(15, 2);
-        clrange(10, 2, 4);
+        // clrange(10, 2, 4);
+        System.out.println(twopower(4));
     }
  }
