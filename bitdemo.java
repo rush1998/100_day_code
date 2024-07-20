@@ -47,6 +47,28 @@ public class bitdemo {
     public static boolean twopower(int num){
         return (num&(num-1)) == 0;
     }
+    public static int countsetbits(int num){
+        int count=0;
+
+        while (num>0) {
+            if ((num&1) != 0) {
+                count ++;
+            }
+            num=num >> 1;
+        }
+        return count;
+    }
+    public static int fastexp(int a, int num){
+        int ans=1;
+        while (num>0) {
+            if ((num&1)!=0) {
+                ans = ans*a;
+            }
+            a=a*a;
+            num=num>>1;
+        }
+        return ans;
+    }
     public static void main(String args[]){
         // oddeve(5);
         // oddeve(4);
@@ -56,6 +78,8 @@ public class bitdemo {
         // clear(10, 1, 0);
         // clearlast(15, 2);
         // clrange(10, 2, 4);
-        System.out.println(twopower(4));
+        // System.out.println(twopower(4));
+    //    System.out.println(countsetbits(15));
+    System.out.println(fastexp(3, 5));
     }
  }
