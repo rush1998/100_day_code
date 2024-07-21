@@ -69,6 +69,15 @@ public class bitdemo {
         }
         return ans;
     }
+    public static void swap(int x, int y){
+        System.out.println("Origin values of x and y are " + x + " "+ y);
+
+        x= x^y;
+        y= x^y;
+        x= x^y;
+
+        System.out.println("Swapped value of x and y are " + x + " "+ y);
+    }
     public static void main(String args[]){
         // oddeve(5);
         // oddeve(4);
@@ -80,6 +89,7 @@ public class bitdemo {
         // clrange(10, 2, 4);
         // System.out.println(twopower(4));
     //    System.out.println(countsetbits(15));
-    System.out.println(fastexp(3, 5));
+    // System.out.println(fastexp(3, 5));
+    swap(3, 4);
     }
  }
