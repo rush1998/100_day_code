@@ -78,6 +78,7 @@ public class bitdemo {
 
         System.out.println("Swapped value of x and y are " + x + " "+ y);
     }
+   
     public static void main(String args[]){
         // oddeve(5);
         // oddeve(4);
@@ -90,6 +91,10 @@ public class bitdemo {
         // System.out.println(twopower(4));
     //    System.out.println(countsetbits(15));
     // System.out.println(fastexp(3, 5));
-    swap(3, 4);
+    // swap(3, 4);
+    for(char ch='A'; ch <='Z' ;ch++){
+        char ans = (char)(ch | 32);
+        System.out.print(ans);
+    }
     }
  }
