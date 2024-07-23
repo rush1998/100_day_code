@@ -285,3 +285,10 @@ which is
 - Bitwise right shift **>>**
     - Ex: For 6>>1 remove one bit from right move the remaining bits to right for 6 and add one 0 at the end of it.
     - Formula is a<< b = a*2^b.
+---------------------------------------------------------------------
+*OOPS (object oriented programing)*
+- Object = They are entities in the real world.
+- Class = They have entities of object.
+    - Classes have different attributes(property) and functions(behaviour).
+ 
+
