@@ -290,5 +290,42 @@ which is
 - Object = They are entities in the real world.
 - Class = They have entities of object.
     - Classes have different attributes(property) and functions(behaviour).
- 
+- Acces modifiers 
+    - public ex:
+        - public class Car{
+            public String colour;
+
+            public void drive(){
+                System.out.println("Driving");
+            }
+        }
+    - private ex:
+        - public class Car{
+            private string colour;
+
+            private void startengine(){
+                System.out.println("Engine start");
+            }
+
+            public void drive(){
+                startengin();
+                System.out.println("Driving");
+            }
+        }
+    - protected ex:
+        - public class Car{
+            protected String colour;
+
+            protected void startengine(){
+                System.out.println("Engine started");
+            }
+        }
+        public class Sportcar extends car{
+            public void turbo(){
+                startengine();
+                System.out.println("Turbo active");
+            }
+        }
+    - default (also known as package-private)
+- 
 
