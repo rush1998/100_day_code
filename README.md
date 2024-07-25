@@ -249,20 +249,39 @@ which is
 - 0 - 000
 - 1 - 001
 - 2 - 010
-- 3 - 0011
+- 3 - 011
 - 4 - 100
 - 5 - 101
 - 6 - 110
 - 7 - 111
 
-- Binary AND & 
-    - 1 0 - 0
-    - 0 1 - 0
-    - 0 0 - 0
-    - 1 1 - 1
-- Binary OR |
-- Bitwise XOR ^
-- Bitwise one's complement ~
-- Bitwise left shift <<
-- Bitwise right shift >>
-- 
+- Binary AND **&** 
+    - 1 0 = 0
+    - 0 1 = 0
+    - 0 0 = 0
+    - 1 1 = 1
+- Binary OR **|**
+    - 1 0 = 1
+    - 0 1 = 1
+    - 0 0 = 0
+    - 1 1 = 1
+- Bitwise XOR **^**
+    - 1 0 = 1
+    - 0 1 = 1
+    - 0 0 = 0
+    - 1 1 = 0
+- Bitwise one's complement **~**
+    - 0 = 1
+    - 1 = 0
+    - Rules for finding ~ complement
+        - If the given number is 5 then the binary is 00000101. 
+        - The first bit is known as most significant bit and the last bit is know as least signinficant bit MSB LSB.
+        - If the number at the begining is 1 then it is negitive numnber or else it is positive number.
+        - Now do once complement which is 11111010.
+        - Then add 1 to the complement.
+- Bitwise left shift **<<**
+    - Ex: For 5<<2 remove two bits from left move the remaining bits to left for 5 and add two 0's at the end of it.
+    - Formula is a<< b = a*2^b.
+- Bitwise right shift **>>**
+    - Ex: For 6>>1 remove one bit from right move the remaining bits to right for 6 and add one 0 at the end of it.
+    - Formula is a<< b = a*2^b.
