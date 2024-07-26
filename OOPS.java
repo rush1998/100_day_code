@@ -37,22 +37,34 @@ class Pencil{
         type = new String[3];
         this.colour=colour;
     }
+    
     // non perameterized constructor
     Pencil(){
         type= new String[3];
         System.out.println("Constructor");
     }
+    
     // peremeterized constructor
     Pencil(int point){
         type= new String[3];
         this.point=point;
     }
-    // Copy constructor
+    // Shallow Copy constructor
+    // Pencil(Pencil p2){
+    //     type=new String[3];
+    //     this.colour=p2.colour;
+    //     this.point=p2.point;
+    //     this.type=p2.type;
+    // }
+    
+    // Deep Copy constructor
     Pencil(Pencil p2){
-        type=new String[3];
+        type= new String[3];
         this.colour=p2.colour;
         this.point=p2.point;
-        this.type=p2.type;
+        for(int i=0; i<type.length; i++){
+            this.type[i]=p2.type[i];
+        }
     }
 }
 

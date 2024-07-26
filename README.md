@@ -335,13 +335,21 @@ which is
     - default (also known as package-private)
 - 4 Pillars of OOPS 
     - Encapsulation = Wrapping of data and methods under a single unit. It also implements data hiding. 
-    - Inheritance 
-    - Abstraction
-    - Polymorphism
-- Constructor = It a special method which is invoked automatically at the time of object creation. There are three types of constructor. 
+    - Inheritance **Inheritance.java** = When the properties and method of parent class is passed to child class. There are Types in inheritance as following:
+        - Single level
+        - Multi level
+        - Hierarchial 
+        - Hybrid 
+    - Abstraction = 
+    - Polymorphism **Polymorphism.java** = When we do multiple work in a single form is known as polymorphism.
+        - Compile time(Method overloading)
+        - Run time(Method overriding)
+- Constructor = It a special method which is invoked automatically at the time of object creation. There are three types of constructor. **OOPS.java**
     - Parameterised
     - Non perameterized 
     - Copy constructor
+        - Sallow constructor
+        - Deep constructor
 - When you call same types of constructor more then one time in the main function it is known as function overloading. Also know as Polymorphism.
 
 
