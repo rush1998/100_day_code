@@ -292,15 +292,18 @@ which is
     - Classes have different attributes(property) and functions(behaviour).
 - Acces modifiers 
     - public ex:
-        - public class Car{
+        
+         public class Car{
             public String colour;
 
             public void drive(){
                 System.out.println("Driving");
             }
         }
+        
     - private ex:
-        - public class Car{
+        
+        public class Car{
             private string colour;
 
             private void startengine(){
@@ -312,8 +315,10 @@ which is
                 System.out.println("Driving");
             }
         }
+    
     - protected ex:
-        - public class Car{
+        
+         public class Car{
             protected String colour;
 
             protected void startengine(){
@@ -326,6 +331,18 @@ which is
                 System.out.println("Turbo active");
             }
         }
+    
     - default (also known as package-private)
-- 
+- 4 Pillars of OOPS 
+    - Encapsulation = Wrapping of data and methods under a single unit. It also implements data hiding. 
+    - Inheritance 
+    - Abstraction
+    - Polymorphism
+- Constructor = It a special method which is invoked automatically at the time of object creation. There are three types of constructor. 
+    - Parameterised
+    - Non perameterized 
+    - Copy constructor
+- When you call same types of constructor more then one time in the main function it is known as function overloading. Also know as Polymorphism.
 
+
+        
