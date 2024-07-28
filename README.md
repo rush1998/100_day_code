@@ -351,7 +351,10 @@ which is
     - Polymorphism **Polymorphism.java** = When we do multiple work in a single form is known as polymorphism.
         - Compile time(Method overloading)
         - Run time(Method overriding)
-
+- Interfaces 
+    - All methods are public,abstract and without implementation.Used to achieve total abstraction
+    - Used to achieve total abstraction.
+    - Variables in the interface are final,public and static.
 
 
         
