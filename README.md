@@ -351,10 +351,14 @@ which is
     - Polymorphism **Polymorphism.java** = When we do multiple work in a single form is known as polymorphism.
         - Compile time(Method overloading)
         - Run time(Method overriding)
-- Interfaces 
+- Interfaces **Interface.java**
     - All methods are public,abstract and without implementation.Used to achieve total abstraction
     - Used to achieve total abstraction.
     - Variables in the interface are final,public and static.
-
+- Static keyword **Static.java**
+    - Static keyword in java is used to share the same variable or method of a given class.
+- Super keyword
+    - super keyword is use to refer immediate parent class object.
+- We can assign child object to parent variable.
 
         

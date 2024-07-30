@@ -28,8 +28,6 @@ class Beer implements Herbi, Carni{
 }
 
 
-
-
 interface Chess{
     void move();
 }
