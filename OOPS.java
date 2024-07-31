@@ -1,3 +1,4 @@
+import java.util.*;
 public class OOPS {
     public static void main(String args[]){
         // Pen p1=new Pen();
@@ -12,21 +13,43 @@ public class OOPS {
         // System.out.println(myacc.name);
         // myacc.name = "Rushabh";
         // myacc.setpass("asdisa231");
-        Pencil p1 = new Pencil("red");
-        Pencil p2 = new Pencil();
-        p2.colour="red";
-        p2.point=13;
-        p2.type[0]= "circle";
-        p2.type[1]= "square";
-        p2.type[2]= "rec";
-        Pencil p3 = new Pencil(12);
-        Pencil p4 = new Pencil(p2);
-        p2.type[2]= "pentagon";
-        for(int i=0; i<3; i++){
-            System.out.println(p4.type[i]);
-        }
+        // Pencil p1 = new Pencil("red");
+        // Pencil p2 = new Pencil();
+        // p2.colour="red";
+        // p2.point=13;
+        // p2.type[0]= "circle";
+        // p2.type[1]= "square";
+        // p2.type[2]= "rec";
+        // Pencil p3 = new Pencil(12);
+        // Pencil p4 = new Pencil(p2);
+        // p2.type[2]= "pentagon";
+        // for(int i=0; i<3; i++){
+        //     System.out.println(p4.type[i]);
+        // }
+        Complex c= new Complex();
+        System.out.println("Sum: " + c.sum());
+        System.out.println("difference: " + c.diff());
+        System.out.println("product: " + c.pro());
     }
 }
+class Complex{
+    Scanner sc = new Scanner(System.in);
+    int a= sc.nextInt();
+    int b= sc.nextInt();
+
+    int sum(){
+       return a+b;
+    }
+    int diff(){
+        return a-b;
+    }
+    int pro(){
+         return a*b;
+    }
+}
+
+
+
 class Pencil{
     String colour;
     int point;
