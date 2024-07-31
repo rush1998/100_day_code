@@ -360,5 +360,7 @@ which is
 - Super keyword
     - super keyword is use to refer immediate parent class object.
 - We can assign child object to parent variable.
-
-        
+---------------------------------------------------------------------
+*Recursion*
+- Recursion is a method of solving a computational problem where the solution depends on solution to smaller instances of the same problem.
+- 
