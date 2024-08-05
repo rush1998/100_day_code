@@ -55,12 +55,31 @@ public class Dncsol {
             return false;
         }
     }
-    public static void main(String arga[]){
-        String arr[]= {"sun","earth","mars","mercury"};
-        String a[]= mergesort(arr, 0, arr.length-1);
-        
-        for(int i=0; i<a.length;i++){
-            System.out.print(a[i]);
+
+    public static int majority(int nums[]){
+        int majcount=nums.length/2;
+
+        for(int i=0; i<nums.length; i++){
+            int count=0;
+            for(int j=0; j<nums.length; j++){
+                if (nums[j]==nums[i]) {
+                    count+=1;
+                }
+            }
+            if (count>majcount) {
+                return nums[i];
+            }
         }
+        return -1;
+    }
+    public static void main(String arga[]){
+        // String arr[]= {"sun","earth","mars","mercury"};
+        // String a[]= mergesort(arr, 0, arr.length-1);
+        
+        // for(int i=0; i<a.length;i++){
+        //     System.out.print(a[i]);
+        // }
+        int nums[]={2,2,1,1,1,2,2};
+        System.out.println(majority(nums));
     }
 }
