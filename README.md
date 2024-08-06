@@ -378,4 +378,6 @@ which is
 *Time and Space complexity*
 - Time is function of n when we use normal case.
 - For larger input size constant time algorithm is better then linear time code.
+- For linear search and simple loop the time complexity is O(n).
+- For nested loop the time complexity is O(n2).
 - 
