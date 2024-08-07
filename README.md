@@ -380,4 +380,5 @@ which is
 - For larger input size constant time algorithm is better then linear time code.
 - For linear search and simple loop the time complexity is O(n).
 - For nested loop the time complexity is O(n2).
+- Time complexity for Binary search is O(logn).
 - 
