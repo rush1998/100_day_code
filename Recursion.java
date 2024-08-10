@@ -144,6 +144,41 @@ public static void printbinString(int n, int lastplace, String s){
         printbinString(n-1, 0, s+"0");
     }
 } 
+
+public static void allocc(int arr[],int key, int i){
+    if (i==arr.length) {
+        return;
+    }
+    if (arr[i]==key) {
+        System.out.print(i);
+    }
+    allocc(arr, key, i+1);
+}
+
+public static void que2(int number){
+    String arr[] = {"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
+    if (number==0) {
+        return;
+    }
+    int lastdigit=number%10;
+    que2(number/10);
+    System.out.print(arr[lastdigit] + " ");
+}
+public static int que3(String st){
+    if (st.length()==0) {
+        return 0;
+    }
+    return que3(st.substring(1))+1;
+}
+public static void que5 (int n,String source,String help,String dest){
+    if (n==1) {
+        System.out.println("Shift disk " + n + " from " + source + " to " + dest);  
+        return;  
+    }
+    que5(n-1, source, dest, help);
+    System.out.println("Shift disk " + n + " from " + source + " to " + dest);
+    que5(n-1, help, source, dest);
+}
     public static void main(String args[]){
         // int num =10;
         // dec(num);
@@ -161,6 +196,12 @@ public static void printbinString(int n, int lastplace, String s){
         // String str="rushabh";
         // removeDuplicate(str, 0, new StringBuilder(""), new boolean[26]);
         // System.out.println(parring(3));
-        printbinString(3, 0, "");
+        // printbinString(3, 0, "");
+        // int arr[]= {3,2,4,5,6,2,7,2,2};
+        // allocc(arr, 2, 0);
+        // que2(1947);
+        // String st= "Rush";
+        // System.out.print(que3(st));
+        que5(3, "S", "H", "D");
     }    
 }
