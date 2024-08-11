@@ -364,3 +364,13 @@ which is
 *Recursion*
 - Recursion is a method of solving a computational problem where the solution depends on solution to smaller instances of the same problem.
 - Always have a base case in recursion.
+---------------------------------------------------------------------
+*Divide and conquer*
+- Merge short has a time complexity as inbuit short. **Mergesort.java**
+    - First divide. 
+    - then mergeshort left part and right part.
+    - then merge both left and right.
+- Quick short it dosent take extra space as merge short. **Quicksort.java**
+    - First thing is to find a pivot.
+    - Do partition. 
+    - then call for quick short for left and right part.
