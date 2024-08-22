@@ -374,3 +374,8 @@ which is
     - First thing is to find a pivot.
     - Do partition. 
     - then call for quick short for left and right part.
+---------------------------------------------------------------------
+*Time and Space complexity*
+- Time is function of n when we use normal case.
+- For larger input size constant time algorithm is better then linear time code.
+- 
