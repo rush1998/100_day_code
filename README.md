@@ -381,4 +381,3 @@ which is
 - For linear search and simple loop the time complexity is O(n).
 - For nested loop the time complexity is O(n2).
 - Time complexity for Binary search is O(logn).
-- 
