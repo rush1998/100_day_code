@@ -381,3 +381,5 @@ which is
 - For linear search and simple loop the time complexity is O(n).
 - For nested loop the time complexity is O(n2).
 - Time complexity for Binary search is O(logn).
+- Merge short: if the value of n is divided by 2 (n/2) then the time taken is log2n.So the time cmplexicity of merge short is nlogn.
+- For power function Time complexicity is O(n) ans space complexity is O(n).
